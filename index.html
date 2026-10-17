@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Rogers Mounties Basketball</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Rogers Hoops">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#142850">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<style>
+  :root{
+    --court: #142850;
+    --court-line: #ffffff;
+    --ink: #171a17;
+    --muted: #5b6158;
+    --win: #1f8a4c;
+    --loss: #23241f;
+    --paper: #f7f8f5;
+  }
+  *{ box-sizing: border-box; }
+  body{
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .header{
+    background:
+      radial-gradient(circle, rgba(255,255,255,0.25) 1.6px, transparent 1.8px),
+      linear-gradient(150deg, #27447d 0%, #142850 55%, #0a1630 100%);
+    background-size: 16px 16px, 100% 100%;
+    background-position: 0 0, 0 0;
+    color: var(--court-line);
+    padding: 30px 20px 34px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 28px 28px;
+  }
+  .header .ball-bg{
+    position:absolute;
+    top: -14px;
+    right: -10px;
+    font-size: 120px;
+    line-height: 1;
+    opacity: 0.9;
+    pointer-events:none;
+    transform: rotate(10deg);
+    z-index: 1;
+  }
+  .header .ball-sm{
+    position:absolute;
+    font-size: 30px;
+    opacity: 0.28;
+    pointer-events:none;
+  }
+  .header .ball-sm.b1{ top: 20px; left: 6%; transform: rotate(-15deg); }
+  .header .content{ position:relative; z-index:2; }
+  .header h1{
+    margin:0;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    line-height: 1.1;
+  }
+  .header p{
+    margin: 4px 0 0;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: rgba(255,255,255,0.85);
+  }
+  .record{
+    display:flex;
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .record .box{
+    flex:1;
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 10px 8px;
+    text-align:center;
+  }
+  .record .box .n{ font-size: 22px; font-weight: 700; }
+  .record .box .l{ font-size: 11px; color: rgba(244,241,234,0.7); text-transform: uppercase; letter-spacing: 0.06em; }
+  .record .box.wins .n{ color: #7fd6a0; }
+  .record .box.losses .n{ color: #f0a591; }
+
+  .list{ padding: 16px 14px 40px; max-width: 480px; margin: 0 auto; }
+  .section-label{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 18px 4px 8px;
+  }
+  .game{
+    background: #fff;
+    border: 1px solid #e4e0d3;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items:center;
+    gap: 12px;
+  }
+  .game .date{
+    width: 52px;
+    text-align:center;
+    flex-shrink:0;
+  }
+  .game .date .dow{ font-size: 10px; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .game .date .num{ font-size: 20px; font-weight: 700; color: var(--ink); line-height:1.1; }
+  .game .info{ flex:1; min-width:0; }
+  .game .weekday{ font-size: 11.5px; font-weight: 700; color: var(--court); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 2px; }
+  .game .opp{ font-size: 15px; font-weight: 600; }
+  .game .meta{ font-size: 12.5px; color: var(--muted); margin-top:2px; }
+  .game .home-tag{
+    display:inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-left: 6px;
+    text-transform: uppercase;
+  }
+  .home-tag.home{ background:#e2e7ee; color: var(--court); }
+  .home-tag.away{ background:#ede8de; color: var(--muted); }
+
+  .result-btns{ display:flex; gap:6px; flex-shrink:0; }
+  .result-btns button{
+    width: 40px; height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ddd8c8;
+    background: #fbfaf5;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .result-btns button.active-w{ background: var(--win); color:#fff; border-color: var(--win); }
+  .result-btns button.active-l{ background: var(--loss); color:#fff; border-color: var(--loss); }
+
+  .footer-note{
+    text-align:center;
+    font-size: 11.5px;
+    color: var(--muted);
+    padding: 10px 20px 30px;
+  }
+  .sr-only{
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+  }
+</style>
+</head>
+<body>
+
+<h2 class="sr-only">Rogers Mounties varsity basketball schedule and season record, with tappable win/loss buttons on each game to keep your own running record.</h2>
+
+<div class="header">
+  <div class="ball-sm b1">🏀</div>
+  <div class="ball-bg">🏀</div>
+  <div class="content">
+  <h1>Rogers Mounties</h1>
+  <p>VARSITY BASKETBALL · BUILT FOR THE C.L.I.M.B.</p>
+  <div class="record">
+    <div class="box wins"><div class="n" id="winCount">0</div><div class="l">Wins</div></div>
+    <div class="box losses"><div class="n" id="lossCount">0</div><div class="l">Losses</div></div>
+    <div class="box"><div class="n" id="playedCount">0/0</div><div class="l">Played</div></div>
+  </div>
+  </div>
+</div>
+
+<div class="list" id="gameList"></div>
+
+<div class="footer-note">Tap W or L after a game to keep your own running record.</div>
+
+<script>
+const GAMES = [
+  { id:"g1",  date:"2026-11-12", opponent:"LR Southwest",   venue:"Heritage HS",        event:"Heritage Tipoff",     home:false, time:"5:00 PM" },
+  { id:"g2",  date:"2026-11-13", opponent:"Sheridan",       venue:"Heritage HS",        event:"Heritage Tipoff",     home:false, time:"5:00 PM" },
+  { id:"g3",  date:"2026-11-17", opponent:"Van Buren",      venue:"Rogers HS",          event:null,                  home:true,  time:"7:30 PM" },
+  { id:"g4",  date:"2026-11-21", opponent:"Jacksonville",   venue:"Little Rock Christian", event:"Da Matchup",       home:false, time:"11:00 AM" },
+  { id:"g5",  date:"2026-11-23", opponent:"Siloam Springs", venue:"Rogers HS",          event:null,                  home:true,  time:"6:30 PM" },
+  { id:"g6",  date:"2026-11-24", opponent:"Cabot",          venue:"Rogers HS",          event:null,                  home:true,  time:"2:15 PM" },
+  { id:"g7",  date:"2026-12-03", opponent:"Little Rock Mills", venue:"Benton HS",       event:null,                  home:false, time:"8:30 PM" },
+  { id:"g8",  date:"2026-12-08", opponent:"Providence",     venue:"Rogers HS",          event:null,                  home:true,  time:"6:30 PM" },
+  { id:"g9",  date:"2026-12-10", opponent:"Nettleton",      venue:"Rogers HS",          event:"Arvest Hoopfest",     home:true,  time:"7:00 PM" },
+  { id:"g10", date:"2026-12-11", opponent:"Southmoore",     venue:"Rogers HS",          event:"Arvest Hoopfest",     home:true,  time:"5:30 PM" },
+  { id:"g11", date:"2026-12-12", opponent:"Conway",         venue:"Rogers HS",          event:"Arvest Hoopfest",     home:true,  time:"3:30 PM" },
+  { id:"g12", date:"2026-12-15", opponent:"Heritage",       venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g13", date:"2026-12-18", opponent:"Bentonville",    venue:"Bentonville HS",     event:null,                  home:false, time:"7:00 PM" },
+  { id:"g14", date:"2026-12-28", opponent:"TBD",            venue:"Highland, AR",       event:"Bad Boy Mower Classic", home:false, time:"Dec 28–30" },
+  { id:"g15", date:"2027-01-05", opponent:"Southside",      venue:"Southside HS",       event:null,                  home:false, time:"7:00 PM" },
+  { id:"g16", date:"2027-01-08", opponent:"Northside",      venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g17", date:"2027-01-12", opponent:"Har-Ber",        venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g18", date:"2027-01-15", opponent:"West",           venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g19", date:"2027-01-19", opponent:"Springdale",     venue:"Springdale HS",      event:null,                  home:false, time:"7:00 PM" },
+  { id:"g20", date:"2027-01-22", opponent:"Fayetteville",   venue:"Fayetteville HS",    event:null,                  home:false, time:"7:00 PM" },
+  { id:"g21", date:"2027-01-29", opponent:"Heritage",       venue:"Heritage HS",        event:null,                  home:false, time:"7:00 PM" },
+  { id:"g22", date:"2027-02-02", opponent:"Bentonville",    venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g23", date:"2027-02-05", opponent:"Southside",      venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g24", date:"2027-02-09", opponent:"Northside",      venue:"Northside HS",       event:null,                  home:false, time:"7:00 PM" },
+  { id:"g25", date:"2027-02-12", opponent:"Har-Ber",        venue:"Har-Ber HS",         event:null,                  home:false, time:"7:00 PM" },
+  { id:"g26", date:"2027-02-16", opponent:"West",           venue:"West HS",           event:null,                  home:false, time:"7:00 PM" },
+  { id:"g27", date:"2027-02-19", opponent:"Springdale",     venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g28", date:"2027-02-23", opponent:"Fayetteville",   venue:"Rogers HS",          event:null,                  home:true,  time:"7:00 PM" },
+  { id:"g29", date:"2027-03-01", opponent:"TBD",            venue:"TBD",                event:"State Tournament",    home:false, time:"Mar 1–5" },
+];
+
+const dowNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+function fmtDate(iso){
+  const d = new Date(iso + "T00:00:00");
+  return { dow: dowNames[d.getDay()], num: d.getDate(), month: d.toLocaleString("en-US",{month:"short"}) };
+}
+
+function loadResults(){
+  try{
+    const raw = localStorage.getItem("rogers-basketball-results");
+    return raw ? JSON.parse(raw) : {};
+  }catch(e){ return {}; }
+}
+
+function saveResult(gameId, value){
+  const current = loadResults();
+  if(current[gameId] === value){
+    delete current[gameId];
+  }else{
+    current[gameId] = value;
+  }
+  localStorage.setItem("rogers-basketball-results", JSON.stringify(current));
+  return current;
+}
+
+function renderSummary(results){
+  let wins=0, losses=0;
+  Object.values(results).forEach(v=>{ if(v==="W") wins++; if(v==="L") losses++; });
+  document.getElementById("winCount").textContent = wins;
+  document.getElementById("lossCount").textContent = losses;
+  document.getElementById("playedCount").textContent = (wins+losses) + "/" + GAMES.length;
+}
+
+function renderGames(results){
+  const list = document.getElementById("gameList");
+  list.innerHTML = "";
+  GAMES.forEach(g=>{
+    const d = fmtDate(g.date);
+    const result = results[g.id];
+    const meta = [g.event, g.venue, g.time].filter(Boolean).join(" · ");
+    const row = document.createElement("div");
+    row.className = "game";
+    row.innerHTML = `
+      <div class="date"><div class="dow">${d.month}</div><div class="num">${d.num}</div></div>
+      <div class="info">
+        <div class="weekday">${d.dow}</div>
+        <div class="opp">vs ${g.opponent}<span class="home-tag ${g.home ? 'home':'away'}">${g.home ? 'Home':'Away'}</span></div>
+        <div class="meta">${meta}</div>
+      </div>
+      <div class="result-btns">
+        <button data-id="${g.id}" data-v="W" class="${result==='W' ? 'active-w' : ''}" aria-label="Mark win vs ${g.opponent}">W</button>
+        <button data-id="${g.id}" data-v="L" class="${result==='L' ? 'active-l' : ''}" aria-label="Mark loss vs ${g.opponent}">L</button>
+      </div>
+    `;
+    list.appendChild(row);
+  });
+
+  list.querySelectorAll("button").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const id = btn.getAttribute("data-id");
+      const v = btn.getAttribute("data-v");
+      const updated = saveResult(id, v);
+      renderGames(updated);
+      renderSummary(updated);
+    });
+  });
+}
+
+(()=>{
+  const results = loadResults();
+  renderGames(results);
+  renderSummary(results);
+})();
+</script>
+
+</body>
+</html>
